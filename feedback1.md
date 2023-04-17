@@ -23,4 +23,4 @@ Pour chipoter : dans la méthode searchByLevel et renderOneCard, utilise plutôt
 Attention aux console.log persistants.
 
 ### Bilan
-Pas grand-chose à redire, mis à part les problèmes d'injection SQL et les conventions de nommage. Attention à garder la même logique de nommage dans tout ton code.
+Pas grand-chose à redire, mis à part les problèmes d'injection SQL et les conventions de nommage. Attention a garder la même logique de nommage dans tout ton code.

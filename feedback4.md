@@ -16,10 +16,10 @@ Il faut également gérer l'erreur 404, au cas ou la carte n'existe pas.
 Ne laisse pas de code mort en commentaire.
 
 ### Bilan
-Tu ne semble pas bien maitriser les routes, les requetes SQL, et les controleurs.
+Tu ne sembles pas bien maîtriser les routes, les requetes SQL, et les controleurs.
 Essaye de refaire pas à pas l'exercice en t'aidant de la correction.
-Commente chaque ligne, si tu n'arrive pas à la commenter c'est que tu ne la comprend pas bien, c'est un excellent moyen de progresser et de ce rendre compte de ces lacunes.
-Hesite pas à revenir vers l'équipe à chaque ligne que tu ne comprend pas.
+Commente chaque ligne, si tu n'arrives pas à la commenter c'est que tu ne la comprends pas bien, c'est un excellent moyen de progresser et de ce rendre compte de ses lacunes.
+Hésite pas à revenir vers l'équipe à chaque ligne que tu ne comprends pas.
 
 ### Manquant
 étape 2/3.1/3.2/3.3/3.4

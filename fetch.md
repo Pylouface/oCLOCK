@@ -1,13 +1,15 @@
-Fetch est une fonction de JavaScript côté client. Seul le navigateur peut lancer ce type de requête. Il est possible de tricher avec le module node-fetch pour les effectuer côté serveur avec Node.js. En gros, cela permet de faire une requête HTTP sur le web et de récupérer des données (fichier, image, JSON, texte, etc.).
+Fetch est une fonction de JavaScript côté client. Seul le navigateur peut lancer ce type de requête. Il est possible de tricher avec le module node-fetch pour les effectuer côté serveur avec Node.js. En gros, cela permet de faire une requête HTTP sur le web et de récupérer des données (fichier, image, JSON, texte, etc.) sans avoir à recharger la page.
 
 Pour effectuer une requête fetch, on appelle simplement la fonction fetch() en lui passant l'URL visée. Par défaut, fetch envoie une requête GET, mais il est possible de spécifier d'autres méthodes HTTP (POST, PUT, DELETE, etc.) en passant un deuxième paramètre contenant les options de la requête, telles que le corps de la requête, les en-têtes (headers), les cookies, etc.
 
-En gros, on envoie ce dont on a besoin au serveur, soit des données (un ID, par exemple) ou des tokens de connexion, on y ajoute ce qu'on veut faire : créer (POST), récupérer (GET), mettre à jour (PUT), supprimer (DELETE), etc. Ce sont les méthodes du protocole HTTP.
+En gros, on envoie ce dont on a besoin au serveur, des données (un ID, par exemple) ou des tokens de connexion, on y ajoute ce qu'on veut faire : créer (POST), récupérer (GET), mettre à jour (PUT), supprimer (DELETE), etc. Ce sont les méthodes du protocole HTTP.
 
-Fetch renvoie une promesse, c'est une variable asynchrone. Cela veut dire qu'on ne sait pas quand il y aura des données dedans (car il faut attendre la réponse du serveur !). Une fois qu'on a récupéré la réponse (on dit qu'on a résolu la promesse), on peut la traiter. Comme c'est une requête HTTP, elle contient des informations comme le statut de la réponse (code 200, 404, etc.), les en-têtes (headers) et le corps de la réponse (là où se trouvent les données renvoyées).
+Fetch renvoie une promesse, c'est une variable asynchrone. Cela veut dire qu'on ne sait pas quand il y aura des données dedans (car il faut attendre la réponse du serveur !). 
+Une fois qu'on a récupéré la réponse (on dit qu'on a résolu la promesse.), on peut la traiter. Comme c'est une requête HTTP, elle contient des informations comme le statut de la réponse (code 200, 404, etc.), les en-têtes (headers) et le corps de la réponse (là où se trouvent les données renvoyées).
 
 
 Pour essayer tu peux coller ce code tel quel dans n'importe quel vue, cela récupère des données sur internet depuis un site de test.
+Pour voir les données du console.log, dans ton navigateur ouvre la console dans l'onglet reseau/network, tu vois la requête passer.
 
 <script>
 const getExternalCards = async () => {

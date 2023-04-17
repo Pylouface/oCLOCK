@@ -32,7 +32,7 @@ Attention aux noms des variables entre la vue et le controller.
 ### Bilan
 Tu as réussi à réaliser un morceau de code fonctionnel. 
 Inspire toi de ce qui fonctionne pour réaliser la suite pas à pas.
-N'hesite pas a commenter le code, cela te permet d'être sur de savoir ce que tu fait et de pouvoir mettre le doigt sur tes lacunes.
+N'hesite pas a commenter le code, cela te permet d'être sur de savoir ce que tu fais et de pouvoir mettre le doigt sur tes lacunes.
 
 ### Manquant
 étape 3.1/3.2/3.3/3.4
